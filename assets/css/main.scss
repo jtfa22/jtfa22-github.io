@@ -39,3 +39,32 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// attempt at dark mode
+@media (prefers-color-scheme: dark) {
+    body {
+      @include dark-mode;
+    }
+  }
+
+@mixin dark-mode {
+  background: $background-color-dark;
+  color: $text-color-dark;
+//   a {
+//     color: $text-color-dark;
+//   }
+//   .meta__primary {
+//     color: $text-color-dark;
+//   }
+//   .meta__secondary {
+//     color: $text-color-darke;
+//   }
+//   .tags__item {
+//     border-color: $color-mid;
+//     color: $text-color-dark;
+//     &:hover {
+//       color: $color-white;
+//       border-color: $color-blue;
+//     }
+//   }
+}
