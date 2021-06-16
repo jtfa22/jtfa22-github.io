@@ -56,8 +56,8 @@
 @mixin dark-mode {
   background: $background-color-dark;
   color: $text-color-dark;
-  border-color: $darker-gray;
-  $primary-color : $primary-color-dark;
+  $border-color: $darker-gray;
+  $primary-color : $lighter-gray;
 
   .masthead {
     background: $background-color-dark;
