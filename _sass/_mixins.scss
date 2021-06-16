@@ -56,14 +56,12 @@
 @mixin dark-mode {
   background: $background-color-dark;
   color: $text-color-dark;
+  border-color: $darker-gray;
+  $primary-color : $primary-color-dark;
 
   .masthead {
     background: $background-color-dark;
   }
-
-  // .greedy-nav {
-  //   background: $background-color-dark;
-  // }
 
   .page__footer {
     background: $darker-gray;
@@ -77,6 +75,18 @@
   ::selection {
     color: $darker-gray;
     background: #fff;
+  }
+
+  .social-icons {
+    .fa {
+      color: #fff;
+    }
+
+    .fa-github,
+    .fa-github-alt,
+    .fa-github-square {
+      color: #e7e7e7;
+    }
   }
 }
 
