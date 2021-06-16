@@ -3,8 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: fixed;
   // position: relative;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
