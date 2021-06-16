@@ -56,22 +56,28 @@
 @mixin dark-mode {
   background: $background-color-dark;
   color: $text-color-dark;
-  border: $darker-gray;
-  border-top: $darker-gray;
-  border-bottom: $darker-gray;
+  border: $gray;
+  border-top: $gray;
+  border-bottom: $gray;
   $primary-color : $primary-color-dark;
 
   .masthead {
     background: $background-color-dark;
+    border-bottom: 1px solid $-gray;
   }
 
-  // .greedy-nav a {
-  a{
+  .greedy-nav a {
+  // a{
       color: $primary-color-dark;
+  }
+
+  .author__avatar img {
+    border: 1px solid $gray;
   }
 
   .page__footer {
     background: $darker-gray;
+    border-top: $gray;
   }
 
   ::-moz-selection {
