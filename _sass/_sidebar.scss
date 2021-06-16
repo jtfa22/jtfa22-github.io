@@ -231,6 +231,12 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    // enable select
+    cursor: auto;
+    -webkit-user-select: text;
+    -moz-select: text;
+    -ms-select: text;
+    user-select: text;
 
     &:hover {
       text-decoration: underline;
