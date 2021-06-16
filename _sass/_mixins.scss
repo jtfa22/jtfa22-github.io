@@ -64,10 +64,15 @@
   .masthead {
     background: rgba($background-color-dark,$background-opacity);
     border-bottom-color: $border-color-dark;
+    color: $primary-color-dark;
   }
 
   .greedy-nav {
-      color: $primary-color-dark;
+    color: $primary-color-dark;
+  }
+  
+  .hidden-links {
+    background-color: $background-color-dark;
   }
 
   .page__footer {
@@ -96,6 +101,11 @@
       color: #e7e7e7;
     }
   }
+  
+  .author__urls{
+    background-color: $background-color-dark;
+  }
+  // TODO dark background for narrow follow and settings
 }
 
 @mixin blur($radius) {
