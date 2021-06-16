@@ -19,6 +19,7 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
+    padding-top: 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -34,7 +35,7 @@
     }
   }
     // attempt blur
-    @include blur(5px);
+    // @include blur(5px);
 }
 
 .masthead__menu {
