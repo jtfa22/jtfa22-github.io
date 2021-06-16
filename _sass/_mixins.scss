@@ -107,8 +107,7 @@
 
   .btn {
     &--inverse {
-      background-color: $background-color-dark;
-  
+      background-color: $background-color-dark !important;
       &:hover {
         background-color: $dark-gray !important;
       }
