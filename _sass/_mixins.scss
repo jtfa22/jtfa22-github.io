@@ -56,9 +56,9 @@
 @mixin dark-mode {
   background: $background-color-dark;
   color: $text-color-dark;
-  border: $gray;
-  border-top: $gray;
-  border-bottom: $gray;
+  border-color: $gray;
+  // border-top: $gray;
+  // border-bottom: $gray;
   $primary-color : $primary-color-dark;
 
   .masthead {
@@ -72,12 +72,12 @@
   }
 
   .author__avatar img {
-    border: 1px solid $gray;
+    border-color: $gray;
   }
 
   .page__footer {
     background: $darker-gray;
-    border-top: $gray;
+    border-top-color: $gray;
   }
 
   ::-moz-selection {
