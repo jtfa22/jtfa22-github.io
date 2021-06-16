@@ -12,7 +12,8 @@
 
   @include clearfix();
   margin-bottom: 1em;
-  margin-top: $margin-top-overhead;
+  margin-top: 0;
+  padding-top: $margin-top-overhead;
 
   @include breakpoint($large) {
     @include span(2 of 12);

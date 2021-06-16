@@ -62,20 +62,12 @@
   $primary-color : $primary-color-dark;
 
   .masthead {
-    background: $background-color-dark;
+    background: rgba($background-color-dark,$background-opacity);
     border-bottom-color: $border-color-dark;
   }
 
   .greedy-nav {
-  // a{
       color: $primary-color-dark;
-  }
-
-  .author__avatar img{
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color-dark;
-    }
   }
 
   .page__footer {
