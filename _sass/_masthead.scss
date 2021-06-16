@@ -14,13 +14,11 @@
   z-index: 20;
   background: rgba($background-color,$background-opacity);
 
-  // attempt blur
-  @include blur(5px);
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0em 1em 1em;
+    padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -35,6 +33,8 @@
       text-decoration: none;
     }
   }
+    // attempt blur
+    @include blur(5px);
 }
 
 .masthead__menu {
