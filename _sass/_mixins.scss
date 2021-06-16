@@ -70,9 +70,9 @@
   //   color: $primary-color-dark;
   // }
 
-  .greedy-nav { .hidden-links {
+  .greedy-nav .hidden-links {
     background: $background-color-dark;
-  }}
+  }
 
   .page__footer {
     background: $darker-gray;
@@ -104,16 +104,7 @@
   .author__urls{
     background-color: $background-color-dark;
   }
-
-  .btn{
-    &--inverse {
-      background-color: #000;
-      &:hover {
-        color: $dark-gray;
-      }
-  }
-
-
+  // TODO dark background for narrow follow and settings
 }
 
 @mixin blur($radius) {
