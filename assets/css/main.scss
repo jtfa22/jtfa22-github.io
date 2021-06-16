@@ -40,52 +40,6 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-// attempt at dark mode
-
-@mixin dark-mode {
-  background: $background-color-dark;
-  color: $text-color-dark;
-
-  .masthead {
-    background: $background-color-dark;
-  }
-  
-  .greedy-nav {
-    background: $background-color-dark;
-  }
-
-  .page__footer {
-    background: $darker-gray;
-  }
-
-  ::-moz-selection {
-    color: $darker-gray;
-    background: #fff;
-  }
-  
-  ::selection {
-    color: $darker-gray;
-    background: #fff;
-  }
-
-//   a {
-//     color: $text-color-dark;
-//   }
-//   .meta__primary {
-//     color: $text-color-dark;
-//   }
-//   .meta__secondary {
-//     color: $text-color-darke;
-//   }
-//   .tags__item {
-//     border-color: $color-mid;
-//     color: $text-color-dark;
-//     &:hover {
-//       color: $color-white;
-//       border-color: $color-blue;
-//     }
-//   }
-}
 
 @media (prefers-color-scheme: dark) {
   body {

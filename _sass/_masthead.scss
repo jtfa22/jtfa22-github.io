@@ -12,7 +12,10 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
-  background: $background-color;
+  background: rgba($background-color,$background-opacity);
+  
+  // attempt blur
+  @include blur(5px)
 
   &__inner-wrap {
     @include container;
