@@ -31,8 +31,9 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %} <!-- replace with just static text-->
-      <li><a href=""><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email_label }}</a></li>      {% endif %}
+      {% if author.email_label %} <!-- replace with just static text-->
+      <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email_label }}</li>      
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
