@@ -56,14 +56,14 @@
 @mixin dark-mode {
   background: $background-color-dark;
   color: $text-color-dark;
-  border-color: $gray;
-  // border-top: $gray;
-  // border-bottom: $gray;
+  border-color: $border-color-dark;
+  border-top-color: $border-color-dark;
+  border-bottom-color: $border-color-dark;
   $primary-color : $primary-color-dark;
 
   .masthead {
     background: $background-color-dark;
-    border-bottom: 1px solid $gray;
+    border-bottom-color: $border-color-dark;
   }
 
   .greedy-nav {
@@ -71,13 +71,16 @@
       color: $primary-color-dark;
   }
 
-  .author__avatar {
-    border-color: $gray;
+  .author__avatar img{
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid $border-color-dark;
+    }
   }
 
   .page__footer {
     background: $darker-gray;
-    border-top-color: $gray;
+    border-top-color: $border-color-dark;
   }
 
   ::-moz-selection {
