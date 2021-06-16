@@ -56,11 +56,17 @@
 @mixin dark-mode {
   background: $background-color-dark;
   color: $text-color-dark;
-  $border-color: $darker-gray;
-  $primary-color : $lighter-gray;
+  border: $darker-gray;
+  border-top: $darker-gray;
+  border-bottom: $darker-gray;
+  $primary-color : $primary-color-dark;
 
   .masthead {
     background: $background-color-dark;
+  }
+
+  .greedy-nav a{
+    color: $primary-color-dark;
   }
 
   .page__footer {
