@@ -56,7 +56,7 @@
 @mixin dark-mode {
   background: $background-color-dark;
   color: $text-color-dark;
-  border: $border-color-dark !important;
+  border: $border-color-dark;
   border-top: $border-color-dark;
   border-bottom: $border-color-dark;
 
