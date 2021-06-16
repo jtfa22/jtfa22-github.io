@@ -173,9 +173,7 @@
    ========================================================================== */
 
 .greedy-nav {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  // position: relative;
+  position: relative;
   min-width: 250px;
   background: $background-color;
 

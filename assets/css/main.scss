@@ -45,10 +45,9 @@
 @mixin dark-mode {
   background: $background-color-dark;
   color: $text-color-dark;
-  $primary-color: $primary-color-dark;
 
   .greedy-nav {
-    background: $darker-gray;
+    background: $background-color-dark;
   }
 
   .page__footer {
