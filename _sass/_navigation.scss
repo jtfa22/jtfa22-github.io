@@ -250,29 +250,29 @@
     }
   }
 
-  .light-switch {
-    position: relative;
-    width: 24px;
-    height: 24px;
-    margin: 0 1em;
+  // .light-switch {
+  //   position: relative;
+  //   width: 24px;
+  //   height: 24px;
+  //   margin: 0 1em;
 
-    button {
-      display: block;
-      width: 20px;
-      height: 20px;
-      background-color: $background-color-dark;
-      border-radius: 20px;
-      position: absolute;
-      top: 2px;
-      bottom: 2px;
-      right: 2px;
-      cursor: pointer;
-      -moz-transition: background-color .25s ease-out;
-      -webkit-transition: background-color .25s ease-out;
-      -o-transition: background-color .25s ease-out;
-      transition: background-color .25s ease-out;
-    }
-  }
+  //   button {
+  //     display: block;
+  //     width: 20px;
+  //     height: 20px;
+  //     background-color: $background-color-dark;
+  //     border-radius: 20px;
+  //     position: absolute;
+  //     top: 2px;
+  //     bottom: 2px;
+  //     right: 2px;
+  //     cursor: pointer;
+  //     -moz-transition: background-color .25s ease-out;
+  //     -webkit-transition: background-color .25s ease-out;
+  //     -o-transition: background-color .25s ease-out;
+  //     transition: background-color .25s ease-out;
+  //   }
+  // }
 
   .hidden-links {
     position: absolute;
