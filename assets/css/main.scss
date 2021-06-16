@@ -45,6 +45,21 @@
 @mixin dark-mode {
   background: $background-color-dark;
   color: $text-color-dark;
+
+  .page__footer {
+    background-color: $darker-gray;
+  }
+
+  ::-moz-selection {
+    color: $darker-gray;
+    background: #fff;
+  }
+  
+  ::selection {
+    color: $darker-gray;
+    background: #fff;
+  }
+
 //   a {
 //     color: $text-color-dark;
 //   }
