@@ -65,8 +65,10 @@
     background: $background-color-dark;
   }
 
-  .greedy-nav a{
-    color: $primary-color-dark;
+  .greedy-nav {
+    a{
+      color: $primary-color-dark;
+    }
   }
 
   .page__footer {
